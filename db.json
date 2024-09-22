@@ -1,0 +1,63 @@
+{
+	"courses": [
+		{
+			"id": 1,
+			"title": "Project Management Processes",
+			"description": "Learn the fundamentals of project management",
+			"instructor": "Prof. John Breaker",
+			"image": "path/to/image.jpg",
+			"progress": 33,
+			"syllabus": [
+				"Introduction to Project Management",
+				"Basic Concepts",
+				"Terminologies",
+				"Project Life Cycle"
+			]
+		},
+		{
+			"id": 2,
+			"title": "Project Management Processes",
+			"description": "Learn the fundamentals of project management",
+			"instructor": "Prof. John Breaker",
+			"image": "path/to/image.jpg",
+			"progress": 33,
+			"rating": 4.8,
+			"syllabus": [
+				"Introduction to Project Management",
+				"Basic Concepts",
+				"Terminologies",
+				"Project Life Cycle"
+			]
+		},
+		{
+			"id": 3,
+			"title": "Project Management Processes",
+			"description": "Learn the fundamentals of project management",
+			"instructor": "Prof. John Breaker",
+			"image": "path/to/image.jpg",
+			"progress": 33,
+			"rating": 4.8,
+			"syllabus": [
+				"Introduction to Project Management",
+				"Basic Concepts",
+				"Terminologies",
+				"Project Life Cycle"
+			]
+		},
+		{
+			"id": 3,
+			"title": "Project Management Processes",
+			"description": "Learn the fundamentals of project management",
+			"instructor": "Prof. John Breaker",
+			"image": "path/to/image.jpg",
+			"progress": 33,
+			"rating": 4.8,
+			"syllabus": [
+				"Introduction to Project Management",
+				"Basic Concepts",
+				"Terminologies",
+				"Project Life Cycle"
+			]
+		}
+	]
+}
