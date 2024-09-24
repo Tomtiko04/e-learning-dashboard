@@ -2,6 +2,39 @@
 
 This project is an e-learning-dashboard platform built with Vue.js, featuring course listings, detailed course views, progress tracking, and a rating system for course chapters.
 
+## Table of Contents
+1. [Introduction](#e-learning-dashboard-platform)
+2. [Technology Stack](#technology-stack)
+3. [Project Setup](#project-setup)
+4. [Running the Mock API](#running-the-mock-api)
+5. [Build for Production](#build-for-production)
+6. [Implementation Notes](#implementation-notes)
+7. [Project Structure](#project-structure)
+8. [Key Components](#key-components)
+   - [CourseDetail.vue](#coursedetailvue)
+   - [CourseList.vue](#courselistvue)
+9. [State Management](#state-management)
+   - [Course Store](#course-store)
+10. [Routing](#routing)
+11. [API Integration](#api-integration)
+   - [API Endpoints](#api-endpoints)
+12. [Styling](#styling)
+   - [Breakpoints](#breakpoints)
+13. [Third-party Integrations](#third-party-integrations)
+14. [Environment Variables](#environment-variables)
+15. [Performance Optimization](#performance-optimization)
+16. [Accessibility](#accessibility)
+17. [Error Handling](#error-handling)
+18. [Security Considerations](#security-considerations)
+19. [Troubleshooting](#troubleshooting)
+20. [Contributing](#contributing)
+21. [Version Control](#version-control)
+22. [Code Style and Linting](#code-style-and-linting)
+23. [Future Enhancements](#future-enhancements)
+24. [Full Documentation](#full-documentation)
+25. [License](#license)
+
+
 ## Technology Stack
 
 - Frontend: Vue.js 3, Vuetify 3
