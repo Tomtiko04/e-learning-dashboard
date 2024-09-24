@@ -16,7 +16,8 @@ This project is an e-learning-dashboard platform built with Vue.js, featuring co
 
 1. Clone the repository:
    ```
-   git clone [@Github](https://github.com/Tomtiko04/e-learning-dashboard.git)
+   git clone [Github](https://github.com/Tomtiko04/e-learning-dashboard.git)
+   
    cd e-learning-dashboard
    ```
 
@@ -195,7 +196,7 @@ Common issues and their solutions:
 - Integrate with a real backend API
 - Implement unit and integration tests
 
-## Full Documentation: [@Full Documentation](https://www.notion.so/E-Learning-Platform-Documentation-10bfe11f2d1380eb82f2f20d2c50bbf0?pvs=4)
+## Full Documentation: [Full Documentation](https://www.notion.so/E-Learning-Platform-Documentation-10bfe11f2d1380eb82f2f20d2c50bbf0?pvs=4)
 
 ## License
 
