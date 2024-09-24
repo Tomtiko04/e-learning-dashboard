@@ -1,6 +1,6 @@
-# E-Learning Platform
+# E-Learning-Dashboard Platform
 
-This project is an e-learning platform built with Vue.js, featuring course listings, detailed course views, progress tracking, and a rating system for course chapters.
+This project is an e-learning-dashboard platform built with Vue.js, featuring course listings, detailed course views, progress tracking, and a rating system for course chapters.
 
 ## Technology Stack
 
@@ -16,8 +16,8 @@ This project is an e-learning platform built with Vue.js, featuring course listi
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/e-learning-platform.git
-   cd e-learning-platform
+   git clone [@Github](https://github.com/Tomtiko04/e-learning-dashboard.git)
+   cd e-learning-dashboard
    ```
 
 2. Install dependencies:
@@ -93,9 +93,6 @@ Main component for displaying individual course details.
 ### CourseList.vue
 Displays a list of available courses.
 
-### Dashboard.vue
-The main landing page for authenticated users.
-
 ## State Management
 
 Using Pinia for state management. The main store is `courses.js`.
@@ -126,7 +123,7 @@ Using Axios for API calls to the JSON Server backend.
 
 ## Styling
 
-- Global styles defined in `App.vue`
+- Global styles defined in assest `main.css`
 - Using Vuetify components for consistent UI
 - Custom CSS for specific component styling
 - Responsive design implemented for mobile and tablet views
@@ -198,7 +195,7 @@ Common issues and their solutions:
 - Integrate with a real backend API
 - Implement unit and integration tests
 
-## Full Documentation: https://www.notion.so/E-Learning-Platform-Documentation-10bfe11f2d1380eb82f2f20d2c50bbf0?pvs=4
+## Full Documentation: [@Full Documentation](https://www.notion.so/E-Learning-Platform-Documentation-10bfe11f2d1380eb82f2f20d2c50bbf0?pvs=4)
 
 ## License
 
