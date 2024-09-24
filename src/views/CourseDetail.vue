@@ -1,3 +1,7 @@
 <template>
-    <h1>Course details</h1>
+	<CourseDetail />
 </template>
+
+<script setup>
+import CourseDetail from "../components/CourseDetail.vue"
+</script>

@@ -3,61 +3,214 @@
 		{
 			"id": 1,
 			"title": "Project Management Processes",
-			"description": "Learn the fundamentals of project management",
-			"instructor": "Prof. John Breaker",
-			"image": "path/to/image.jpg",
-			"progress": 33,
+			"description": "Learn the fundamentals of project management.",
+			"aboutcourse": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+			"instructor": {
+				"name": "Prof. John Breaker",
+				"details": "Prof. John Breaker is an experienced project manager with over 20 years of experience in the field.",
+				"image": "/src/assets/images/instructor.avif",
+				"profession": "PM Expert"
+			},
+			"image": "/src/assets/images/course-image3.jpg",
+			"progress": 63,
+			"rating": 3,
+			"breadcrumb": ["My Courses", "Management", "Project Management"],
+			"tabs": [
+				{
+					"name": "Description",
+					"content": "A project management methodology is a set of principles and practices that guide you in organizing your projects to ensure their optimum performance. Basically, it's a framework that helps you to manage your project in the best way possible. Project management is so important to organizations and teams, but in order for it to be really effective, you need to make sure you're correctly mapping your project management methodology to your team type, project, organization, andgoals."
+				},
+				{
+					"name": "Reviews",
+					"content": "A project management methodology is a set of principles and practices that guide you in organizing your projects to ensure their optimum performance. Basically, it's a framework that helps you to manage your project in the best way possible. Project management is so important to organizations and teams, but in order for it to be really effective, you need to make sure you're correctly mapping your project management methodology to your team type, project, organization, and goals."
+				},
+				{
+					"name": "Discussion",
+					"content": "It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout. Using Lorem Ipsum gives it a more-or-less normal distribution of letters."
+				},
+				{
+					"name": "Resources",
+					"content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. Make sure there isn't anything embarrassing hidden in the middle of the text."
+				},
+				{
+					"name": "Instructor",
+					"content": "Prof. John Breaker is an experienced project manager with over 20 years of experience in the field."
+				}
+			],
 			"syllabus": [
-				"Introduction to Project Management",
-				"Basic Concepts",
-				"Terminologies",
-				"Project Life Cycle"
-			]
+				{ "topic": "Introduction to Project Management", "completed": true },
+				{ "topic": "Basic Concepts of Project Management", "completed": true },
+				{ "topic": "Terminologies in Project Management", "completed": false },
+				{ "topic": "Project Life Cycle", "completed": true },
+				{ "topic": "Project Management Processes", "completed": false },
+				{ "topic": "Project Management Methodologies", "completed": false },
+				{ "topic": "Common Documents in Project Management", "completed": false }
+			],
+			"iframe": {
+				"url": "https://www.youtube.com/embed/rck3MnC7OXA",
+				"title": "Intro to Project Management | Google Project Management Certificate",
+				"width": "670",
+				"height": "377"
+			}
 		},
 		{
 			"id": 2,
-			"title": "Project Management Processes",
-			"description": "Learn the fundamentals of project management",
-			"instructor": "Prof. John Breaker",
-			"image": "path/to/image.jpg",
-			"progress": 33,
-			"rating": 4.8,
+			"title": "UI/UX Design Development",
+			"description": "Learn the fundamentals of UI/UX design.",
+			"aboutcourse": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+			"instructor": {
+				"name": "Prof. Jimi Luston",
+				"details": "Prof. Jimi Luston is an experienced UI/UX Design Development with over 20 years of experience in the field.",
+				"image": "/src/assets/images/instructor.avif",
+				"profession": "UI/UX Expert"
+			},
+			"image": "/src/assets/images/course-image3.jpg",
+			"progress": 50,
+			"rating": 4,
+			"breadcrumb": ["My Courses", "Management", "UI/UX Design"],
+			"tabs": [
+				{
+					"name": "Description",
+					"content": "A project management methodology is a set of principles and practices that guide you in organizing your projects to ensure their optimum performance. Basically, it's a framework that helps you to manage your project in the best way possible. Project management is so important to organizations and teams, but in order for it to be really effective, you need to make sure you're correctly mapping your project management methodology to your team type, project, organization, and goals."
+				},
+				{
+					"name": "Reviews",
+					"content": "A project management methodology is a set of principles and practices that guide you in organizing your projects to ensure their optimum performance. Basically, it's a framework that helps you to manage your project in the best way possible. Project management is so important to organizations and teams, but in order for it to be really effective, you need to make sure you're correctly mapping your project management methodology to your team type, project, organization, and goals."
+				},
+				{
+					"name": "Discussion",
+					"content": "It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout. Using Lorem Ipsum gives it a more-or-less normal distribution of letters."
+				},
+				{
+					"name": "Resources",
+					"content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. Make sure there isn't anything embarrassing hidden in the middle of the text."
+				},
+				{
+					"name": "Instructor",
+					"content": "Prof. John Breaker is an experienced project manager with over 20 years of experience in the field."
+				}
+			],
 			"syllabus": [
-				"Introduction to Project Management",
-				"Basic Concepts",
-				"Terminologies",
-				"Project Life Cycle"
-			]
+				{ "topic": "Introduction to Project Management", "completed": true },
+				{ "topic": "Basic Concepts of Project Management", "completed": true },
+				{ "topic": "Terminologies in Project Management", "completed": false },
+				{ "topic": "Project Life Cycle", "completed": true },
+				{ "topic": "Project Management Processes", "completed": false },
+				{ "topic": "Project Management Methodologies", "completed": false },
+				{ "topic": "Common Documents in Project Management", "completed": false }
+			],
+			"iframe": {
+				"url": "https://www.youtube.com/embed/kbZejnPXyLM",
+				"title": "Intro to Project Management | Google Project Management Certificate",
+				"width": "670",
+				"height": "377"
+			}
 		},
 		{
 			"id": 3,
-			"title": "Project Management Processes",
-			"description": "Learn the fundamentals of project management",
-			"instructor": "Prof. John Breaker",
-			"image": "path/to/image.jpg",
-			"progress": 33,
-			"rating": 4.8,
+			"title": "Frontend Development",
+			"description": "Learn the fundamentals of Frontend development.",
+			"aboutcourse": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+			"instructor": {
+				"name": "Prof. Paul Jimison",
+				"details": "Prof. John Breaker is an experienced project manager with over 20 years of experience in the field.",
+				"image": "/src/assets/images/instructor.avif",
+				"profession": "Software Expert"
+			},
+			"image": "/src/assets/images/course-image3.jpg",
+			"progress": 73,
+			"rating": 5,
+			"breadcrumb": ["My Courses", "Management", "Frontend Development"],
+			"tabs": [
+				{
+					"name": "Description",
+					"content": "A project management methodology is a set of principles and practices that guide you in organizing your projects to ensure their optimum performance. Basically, it's a framework that helps you to manage your project in the best way possible. Project management is so important to organizations and teams, but in order for it to be really effective, you need to make sure you're correctly mapping your project management methodology to your team type, project, organization, and goals."
+				},
+				{
+					"name": "Reviews",
+					"content": "A project management methodology is a set of principles and practices that guide you in organizing your projects to ensure their optimum performance. Basically, it's a framework that helps you to manage your project in the best way possible. Project management is so important to organizations and teams, but in order for it to be really effective, you need to make sure you're correctly mapping your project management methodology to your team type, project, organization, and goals."
+				},
+				{
+					"name": "Discussion",
+					"content": "It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout. Using Lorem Ipsum gives it a more-or-less normal distribution of letters."
+				},
+				{
+					"name": "Resources",
+					"content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. Make sure there isn't anything embarrassing hidden in the middle of the text."
+				},
+				{
+					"name": "Instructor",
+					"content": "Prof. John Breaker is an experienced project manager with over 20 years of experience in the field."
+				}
+			],
 			"syllabus": [
-				"Introduction to Project Management",
-				"Basic Concepts",
-				"Terminologies",
-				"Project Life Cycle"
-			]
+				{ "topic": "Introduction to Project Management", "completed": true },
+				{ "topic": "Basic Concepts of Project Management", "completed": true },
+				{ "topic": "Terminologies in Project Management", "completed": false },
+				{ "topic": "Project Life Cycle", "completed": true },
+				{ "topic": "Project Management Processes", "completed": false },
+				{ "topic": "Project Management Methodologies", "completed": false },
+				{ "topic": "Common Documents in Project Management", "completed": false }
+			],
+			"iframe": {
+				"url": "https://www.youtube.com/embed/9He4UBLyk8Y",
+				"title": "Intro to Project Management | Google Project Management Certificate",
+				"width": "670",
+				"height": "377"
+			}
 		},
 		{
-			"id": 3,
-			"title": "Project Management Processes",
-			"description": "Learn the fundamentals of project management",
-			"instructor": "Prof. John Breaker",
-			"image": "path/to/image.jpg",
+			"id": 4,
+			"title": "Data Science Analysis",
+			"description": "Learn the fundamentals of data science.",
+			"aboutcourse": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+			"instructor": {
+				"name": "Prof. John Breaker",
+				"details": "Prof. John Breaker is an experienced project manager with over 20 years of experience in the field.",
+				"image": "/src/assets/images/instructor.avif",
+				"profession": "Data Expert"
+			},
+			"image": "/src/assets/images/course-image3.jpg",
 			"progress": 33,
-			"rating": 4.8,
+			"rating": 5,
+			"breadcrumb": ["My Courses", "Management", "Data Science"],
+			"tabs": [
+				{
+					"name": "Description",
+					"content": "A project management methodology is a set of principles and practices that guide you in organizing your projects to ensure their optimum performance. Basically, it's a framework that helps you to manage your project in the best way possible. Project management is so important to organizations and teams, but in order for it to be really effective, you need to make sure you're correctly mapping your project management methodology to your team type, project, organization, and goals."
+				},
+				{
+					"name": "Reviews",
+					"content": "A project management methodology is a set of principles and practices that guide you in organizing your projects to ensure their optimum performance. Basically, it's a framework that helps you to manage your project in the best way possible. Project management is so important to organizations and teams, but in order for it to be really effective, you need to make sure you're correctly mapping your project management methodology to your team type, project, organization, and goals."
+				},
+				{
+					"name": "Discussion",
+					"content": "It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout. Using Lorem Ipsum gives it a more-or-less normal distribution of letters."
+				},
+				{
+					"name": "Resources",
+					"content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. Make sure there isn't anything embarrassing hidden in the middle of the text."
+				},
+				{
+					"name": "Instructor",
+					"content": "Prof. John Breaker is an experienced project manager with over 20 years of experience in the field."
+				}
+			],
 			"syllabus": [
-				"Introduction to Project Management",
-				"Basic Concepts",
-				"Terminologies",
-				"Project Life Cycle"
-			]
+				{ "topic": "Introduction to Project Management", "completed": true },
+				{ "topic": "Basic Concepts of Project Management", "completed": true },
+				{ "topic": "Terminologies in Project Management", "completed": false },
+				{ "topic": "Project Life Cycle", "completed": true },
+				{ "topic": "Project Management Processes", "completed": false },
+				{ "topic": "Project Management Methodologies", "completed": false },
+				{ "topic": "Common Documents in Project Management", "completed": false }
+			],
+			"iframe": {
+				"url": "https://www.youtube.com/embed/RBSUwFGa6Fk",
+				"title": "Intro to Project Management | Google Project Management Certificate",
+				"width": "670",
+				"height": "377"
+			}
 		}
 	]
 }

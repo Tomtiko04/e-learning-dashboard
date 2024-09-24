@@ -13,7 +13,7 @@ const routes = [
 		component: () => import("../views/CourseList.vue"),
 	},
 	{
-		path: "/course/:id",
+		path: "/my-course/:id",
 		name: "CourseDetail",
 		component: () => import("../views/CourseDetail.vue"),
 		props: true,
