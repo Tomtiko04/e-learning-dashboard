@@ -75,7 +75,7 @@ This project is an e-learning-dashboard platform built with Vue.js, featuring co
 
 This project uses JSON Server to simulate a backend API. The mock data is stored in `db.json` in the project root.
 
-To start the JSON Server: json-server --watch db.json --port 3000
+To start the JSON Server: npx json-server --watch db.json --port 3000
 
 The API will be available at `http://localhost:3000`.
 
