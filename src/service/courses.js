@@ -9,7 +9,7 @@ export const useCourseStore = defineStore("courses", () => {
 	async function getAllCourses() {
 		try {
 			isLoading.value = true;
-			const res = await axios.get("http://localhost:5000/courses");
+			const res = await axios.get("http://localhost:3000/courses");
 			courses.value = res.data;
 		} catch (error) {
 			console.error("Failed to fetch courses:", error.message);
@@ -22,7 +22,7 @@ export const useCourseStore = defineStore("courses", () => {
 	async function getCourse(id) {
 		try {
 			isLoading.value = true;
-			const res = await axios.get(`http://localhost:5000/courses/${id}`);
+			const res = await axios.get(`http://localhost:3000/courses/${id}`);
 			courses.value = [res.data];
 		} catch (error) {
 			console.error("Failed to fetch course:", error.message);

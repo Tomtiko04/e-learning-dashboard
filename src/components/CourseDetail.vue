@@ -166,7 +166,7 @@
 
 <script setup>
 import { ref, computed, onMounted } from "vue";
-import { useCourseStore } from "@/stores/courses";
+import { useCourseStore } from "@/service/courses";
 import { useRoute } from "vue-router";
 import { useToast } from "vue-toast-notification";
 import TabContent from './TabContent.vue';

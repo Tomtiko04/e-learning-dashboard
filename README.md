@@ -1,6 +1,39 @@
-# E-Learning Platform
+# E-Learning-Dashboard Platform
 
-This project is an e-learning platform built with Vue.js, featuring course listings, detailed course views, progress tracking, and a rating system for course chapters.
+This project is an e-learning-dashboard platform built with Vue.js, featuring course listings, detailed course views, progress tracking, and a rating system for course chapters.
+
+## Table of Contents
+1. [Introduction](#e-learning-dashboard-platform)
+2. [Technology Stack](#technology-stack)
+3. [Project Setup](#project-setup)
+4. [Running the Mock API](#running-the-mock-api)
+5. [Build for Production](#build-for-production)
+6. [Implementation Notes](#implementation-notes)
+7. [Project Structure](#project-structure)
+8. [Key Components](#key-components)
+   - [CourseDetail.vue](#coursedetailvue)
+   - [CourseList.vue](#courselistvue)
+9. [State Management](#state-management)
+   - [Course Store](#course-store)
+10. [Routing](#routing)
+11. [API Integration](#api-integration)
+   - [API Endpoints](#api-endpoints)
+12. [Styling](#styling)
+   - [Breakpoints](#breakpoints)
+13. [Third-party Integrations](#third-party-integrations)
+14. [Environment Variables](#environment-variables)
+15. [Performance Optimization](#performance-optimization)
+16. [Accessibility](#accessibility)
+17. [Error Handling](#error-handling)
+18. [Security Considerations](#security-considerations)
+19. [Troubleshooting](#troubleshooting)
+20. [Contributing](#contributing)
+21. [Version Control](#version-control)
+22. [Code Style and Linting](#code-style-and-linting)
+23. [Future Enhancements](#future-enhancements)
+24. [Full Documentation](#full-documentation)
+25. [License](#license)
+
 
 ## Technology Stack
 
@@ -16,8 +49,9 @@ This project is an e-learning platform built with Vue.js, featuring course listi
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/e-learning-platform.git
-   cd e-learning-platform
+   git clone [Github](https://github.com/Tomtiko04/e-learning-dashboard.git)
+   
+   cd e-learning-dashboard
    ```
 
 2. Install dependencies:
@@ -27,7 +61,7 @@ This project is an e-learning platform built with Vue.js, featuring course listi
 
 3. Start the JSON Server (mock API):
    ```
-   json-server --watch db.json --port 3000
+   npx json-server --watch db.json --port 3000
    ```
 
 4. Run the development server:
@@ -77,9 +111,8 @@ src/
 │ └── CourseDetail.vue
 ├── router/
 │ └── index.js
-├── stores/
+├── service/
 │ └── courses.js
-├── services/
 ├── App.vue
 └── main.js
 
@@ -92,9 +125,6 @@ Main component for displaying individual course details.
 
 ### CourseList.vue
 Displays a list of available courses.
-
-### Dashboard.vue
-The main landing page for authenticated users.
 
 ## State Management
 
@@ -126,7 +156,7 @@ Using Axios for API calls to the JSON Server backend.
 
 ## Styling
 
-- Global styles defined in `App.vue`
+- Global styles defined in assest `main.css`
 - Using Vuetify components for consistent UI
 - Custom CSS for specific component styling
 - Responsive design implemented for mobile and tablet views
@@ -198,7 +228,7 @@ Common issues and their solutions:
 - Integrate with a real backend API
 - Implement unit and integration tests
 
-## Full Documentation: https://www.notion.so/E-Learning-Platform-Documentation-10bfe11f2d1380eb82f2f20d2c50bbf0?pvs=4
+## Full Documentation: [Full Documentation](https://www.notion.so/E-Learning-Platform-Documentation-10bfe11f2d1380eb82f2f20d2c50bbf0?pvs=4)
 
 ## License
 

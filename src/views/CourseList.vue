@@ -41,7 +41,7 @@
 
 <script setup>
 import { ref, onMounted, computed } from "vue";
-import { useCourseStore } from "@/stores/courses";
+import { useCourseStore } from "@/service/courses";
 import CourseCard from "@/components/CourseCard.vue";
 import LoadingSpinner from "@/components/LoadingSpinner.vue";
 import NotFound from "@/components/NotFound.vue";
