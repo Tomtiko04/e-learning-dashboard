@@ -61,7 +61,7 @@ This project is an e-learning-dashboard platform built with Vue.js, featuring co
 
 3. Start the JSON Server (mock API):
    ```
-   json-server --watch db.json --port 3000
+   npx json-server --watch db.json --port 3000
    ```
 
 4. Run the development server:
